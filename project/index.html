@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="header"> 
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Admin-Login</a></li>
+                    <li><a href="student.html">Student-Login</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box"> 
+            <h1>Welcome To Library</h1>
+            <p>Opens at: 7:00</p>
+            <p>Closes at: 16:00</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+<!-- books we offer -->
+
+<!-- <section class="books">
+    <h1>Books We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, expedita fugit recusandae illo doloribus dolore quia inventore unde a commodi totam illum sapiente quod quaerat molestias repellendus odit eius quasi.</p>
+    
+</section> -->
+
+
+   <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, odit eum? Unde, odio? <br>Aut laborum sint ratione non! Id nobis sint itaque sunt dolor vero quia quam, at atque placeat!</p>
+         <div class="icons">
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-instagram"></i>
+           <i class="fa fa-linkedin"></i>
+         </div>
+
+    </section>
+
+
+<!--------------------------JavaScript for toggle menu----------------------->
+<script>
+
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px"
+  }
+
+</script>
+
+
+</body>
+</html>
